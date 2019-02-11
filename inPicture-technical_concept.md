@@ -79,10 +79,12 @@ Documented public `API` of database.
 
 | ID | author_UUID **[FK]** | item_UUID | vote Boolean(NULL) | locked Boolean(FALSE) |
 |---|---|---|---|---|
+| | |
 
 #### Votes_public
 | ID | author_UUID **[FK]** | picture_UUID | vote Boolean(NULL) |
-|---|---|---|---|---|
+|---|---|---|---|
+| | |
 
 #### Vote polls
 
@@ -90,11 +92,13 @@ Documented public `API` of database.
 
 | UUID | name | date_start | date_end | author (can be NULL) | item_UUID (can be NULL) | locked Boolean(FALSE) |
 |---|---|---|---|---|---|---|
+| | |
 
 #### Sources
 
 | ID | url | sources-media_UUID (can be NULL) |
 |---|---|---|
+| | |
 
 #### Source media
 
@@ -106,11 +110,13 @@ Smart layer to help with qualification of sources for redactors decisions. Based
 
 #### Users (author/redactor)
 | _UUID_ **[PK]** | username | auth_token (? - PGP key ? [^authMethod]) | 
-|---|---|---|---|---|---|---|---|---|---|
+|---|---|---|
+| | |
 
 #### Pictures
 | _UUID_ **[PK]** | author_UUID | name | votes_up | votes_down | updated |
-|---|---|---|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|
+| | |
 
 
 #### Tags
@@ -119,7 +125,8 @@ Voters for tag relevancy are redactors.
 Categories should be objective, such as: "Foreign policy", "Finances", ...
 
 | _UUID_ **[PK]** | author_UUID | name | votes_up | votes_down | updated | icon | is_category |
-|---|---|---|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|---|
+| | |
 
 #### Pointers
 
@@ -130,12 +137,14 @@ Relevancy of pointers ("Point your finger") is based on amount of users who used
 *@todo* decide how many fingers pointing to something is needed to make them publicly visible.
 
 | _UUID_ **[PK]** | user_UUID | tag_UUID | item_UUID |
-|---|---|---|---|---|---|---|---|---|---|
+|---|---|---|---|
+| | |
 
 #### Places
 
 | _UUID_ **[PK]** | author_UUID | name |
-|---|---|---|---|---|---|---|---|---|---|
+|---|---|---|
+| | |
 
 ## Bytemark of main data tables
 
@@ -161,29 +170,29 @@ Publicly accessible list of existing databases.
 ```JSON
 [
 	{
-		lang: 'en_US',
-		url: 'inPicture:API_ROOT_URL',
-		name: '(Be) In Picture',
-		icon: 'data:=38706hjbvk4hg35g32343...'
+		"lang": "en_US",
+		"url" "inPicture:API_ROOT_URL",
+		"name": "(Be) In Picture",
+		"icon": "data:=38706hjbvk4hg35g32343..."
 	},
 	{
-		lang: 'cs_CZ',
-		url: 'inPicture:vObraze.cz.gov',
-		name: {
-			cs_CZ: 'Buď v Obraze!',
-			en_US: 'Czech In Picture!'
+		"lang": "cs_CZ",
+		"url": "inPicture:vObraze.cz.gov",
+		"name": {
+			"cs_CZ": "Buď v Obraze!",
+			"en_US": "Czech In Picture!"
 		},
-		icon: 'data:=/ik,;aeulmrszhdwejlk213kj4b;k66p;45hv...'
+		"icon": "data:=/ik,;aeulmrszhdwejlk213kj4b;k66p;45hv..."
 	},
 	{
-		lang: 'en_US',
-		url: 'inPicture:inPicture.thepiratebay.org/globalWorldNews',
-		name: 'Stay in picture of todays IT world @by Pirates of Caribbean'
+		"lang": "en_US",
+		"url": "inPicture:inPicture.thepiratebay.org/globalWorldNews",
+		"name": "Stay in picture of todays IT world @by Pirates of Caribbean"
 	},
 	{
-		lang: 'en_US',
-		url: 'inPicture:illuminate.com/bigConspiracy:42',
-		name: 'Juicy conspiracy of everything - everything is connected! Open your eyes!'
+		"lang": "en_US",
+		"url": "inPicture:illuminate.com/bigConspiracy:42",
+		"name": "Juicy conspiracy of everything - everything is connected! Open your eyes!"
 	}
 	
 	/* ... */
