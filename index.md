@@ -25,7 +25,7 @@ Built on trust, independency, freedom of speech and democratic voting.
 
 ## be part of this ...
 
-I am open to discussion and suggestions. [Read part "The Plan"](#theplan)
+I am open to discussion and suggestions. [Read part "The Plan"](#the-plan)
 
 ## 3 cruciral parts
 
@@ -70,8 +70,8 @@ Simple play on words and fact, that graphs are pictures, i think powerful enough
 
 ### Public discussion
 
-* [Social media discussion #inPicuture]()
-* [Suggestions](github.com/spenat28/inPicture/issues)
+* [Social media discussion **#BeInPicuture**](https://twitter.com/hashtag/BeInPicture)
+* [Post and discuss **Suggestions**](https://github.com/spenat28/inPicture/issues)
 
 ## Pahse 0
 
