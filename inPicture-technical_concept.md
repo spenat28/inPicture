@@ -82,6 +82,7 @@ Documented public `API` of database.
 | | |
 
 #### Votes_public
+
 | ID | author_UUID **[FK]** | picture_UUID | vote Boolean(NULL) |
 |---|---|---|---|
 | | |
@@ -109,11 +110,13 @@ Smart layer to help with qualification of sources for redactors decisions. Based
 | inPicture-media-2378ghj543 | 0000000 |
 
 #### Users (author/redactor)
+
 | _UUID_ **[PK]** | username | auth_token (? - PGP key ? [^authMethod]) | 
 |---|---|---|
 | | |
 
 #### Pictures
+
 | _UUID_ **[PK]** | author_UUID | name | votes_up | votes_down | updated |
 |---|---|---|---|---|---|
 | | |
