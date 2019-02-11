@@ -105,7 +105,7 @@ Documented public `API` of database.
 Smart layer to help with qualification of sources for redactors decisions. Based on REGEXP's from URL.
 
 | _UUID_ **[PK]** | _bytemark_ (8bytes) | regexp Char(256) | updated Date() | author_UUID **[FK]**? | name char(60) | type set(journal, gov, ...) |
-|---|---|---|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|
 | inPicture-media-2378ghj543 | 0000000 |
 
 #### Users (author/redactor)
@@ -171,7 +171,7 @@ Publicly accessible list of existing databases.
 [
 	{
 		"lang": "en_US",
-		"url" "inPicture:API_ROOT_URL",
+		"url": "inPicture:API_ROOT_URL",
 		"name": "(Be) In Picture",
 		"icon": "data:=38706hjbvk4hg35g32343..."
 	},
