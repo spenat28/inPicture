@@ -1,37 +1,111 @@
-## Welcome to GitHub Pages
+# (Be) In Picture [DRAFT]
 
-You can use the [editor on GitHub](https://github.com/spenat28/inPicture/edit/master/docs/index.md) to maintain and preview the content for your website in Markdown files.
+![pencil](inpicture_draft.png)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- [UI mockup (as PDF)](inPicture.pdf)
+- [UI mockup (as Pencil project)](inPicture.epgz)
 
-### Markdown
+[Česky](vObraze.md)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Vision
 
-```markdown
-Syntax highlighted code block
+Motivation: **"One picture can be better than thousands of words..."**
 
-# Header 1
-## Header 2
-### Header 3
+Democratic information network. Like Spotify, but for information. Evolution in information sharing.
 
-- Bulleted
-- List
+Sort of "fact-check" network, where multiple elected redactors has to agree about value of information to be displayed to public eyes.
 
-1. Numbered
-2. List
+Initiative to support **independent journalism** and free information to fight against disinformation and **expose connections** between events, citations and political structures.
 
-**Bold** and _Italic_ and `Code` text
+With love to truth, democracy and freedom with independency and distributed system built in.
 
-[Link](url) and ![Image](src)
-```
+Target is not to create new content. Target is to prevent existing content from getting lost from public sight, to be buried under populism and lies. And to be easily found at any time.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Built on trust, independency, freedom of speech and democratic voting.
 
-### Jekyll Themes
+## be part of this ...
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/spenat28/inPicture/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+I am open to discussion and suggestions. [Read part "The Plan"](#theplan)
 
-### Support or Contact
+## 3 cruciral parts
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+* reader ( end-user application )
+* databases ( servers )
+* redactors ( unique per server )
+
+## Basic principles
+
+* Every node and link has to be supported by source - exception is adding people and groups.
+* Connected to social media by UUID hashtags. _Nothing less, nothing more._
+* Every node will be locked in time - to preserve they value that they had in that time.
+* Decentralized and democratic system based on voting.
+* Every information has to have English translation.
+	* This initiative considers English to be universal language, hence all information has to be available in it - with no exception.
+	* _(? this is maybe not necessary, maybe even counter-productive ... it is an idea, which is less important)_
+
+## Name
+
+Simple play on words and fact, that graphs are pictures, i think powerful enough. And works in every language.
+
+## The Plan
+
+* Release this draft
+* Together with one tweet & Twitter vote poll
+* Contact @EdwardSnowden and @JohnOliver
+* Contact journalists
+* Till and of 2019 decide if this project is worth the work.
+* Depends on:
+	* @EdwardSnowden aproval
+	* and @JohnOliver aproval
+	* because i believe in them
+* Or/And:
+	* on public support
+* Till end of 2019 gather needs, opinions, and public discussion
+* If everything goes well:
+	* I'am willing to
+		* make this project reality
+		* spend my own resources to do that
+		* i do not intent to code it alone
+		* publish first version 1.1. 2021
+
+### Public discussion
+
+* [Social media discussion #inPicuture]()
+* [Suggestions](github.com/spenat28/inPicture/issues)
+
+## Pahse 0
+
+What is described in this draft.
+
+## Phase 1
+
+More common user features. Like normal account, "mark as read", etc.
+
+## Disclaimer
+
+This application will remain forever free, without adds and without direct sponsor.
+It will be community effort to build and maintain its functionality and content.
+Every database, server or other connected to this app has to be paid from transparent account as a donation.
+
+## License
+
+Open source - some license suited for what is in disclaimer has to be picked. Apache? GNU-GPL?
+
+## Fun part (databases)
+
+Infinite amount of possibilities, like: Database called **`Conspiracy`** with soul purpose self explained in that name ...
+
+There can be infinite amount of them, which is not target, but possibility.
+Target is to have one per each country of the world.
+
+## [Technical concept](inPicture-technical_concept.md)
+[Czech version](inPicture-technical_concept--cs.md)
+
+## [Database principles, redactors & board](inPicture-database_redaction.md) (EN version is not ready)
+[Czech version](inPicture-database_redaction--cs.md)
+
+## Last word
+
+Today is modern to call disinformation `fake news`. We will call that by its proper name.
+
+> in Czech republic 2019 by @spenat28
