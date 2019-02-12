@@ -37,7 +37,7 @@ I am open to discussion and suggestions. [Read part "The Plan"](#the-plan)
 
 * Every node and link has to be supported by source - exception is adding people and groups.
 * Connected to social media by UUID hashtags. _Nothing less, nothing more._
-* Every node will be locked in time - to preserve they value that they had in that time.
+* Every node will be locked in time - to preserve they value that they had in that time. Automatic lock of information after 6 months. Can be unlocked by voting of redactors, or locked earlier by same method. (More in databases principles.)
 * Decentralized and democratic system based on voting.
 * Every information has to have English translation.
 	* This initiative considers English to be universal language, hence all information has to be available in it - with no exception.
