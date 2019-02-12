@@ -1,1 +1,1 @@
-[http://spenat28.github.io/inPicture/](http://spenat28.github.io/inPicture/)
+[spenat28.github.io/inPicture/](//spenat28.github.io/inPicture/)
