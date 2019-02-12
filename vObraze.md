@@ -3,7 +3,7 @@
 ![pencil](inpicture_draft.png)
 [PDF - mockup](inPicture.pdf)
 
-[English](inPicture.md)
+[English](index.md)
 
 Většina dokumentace a konceptu je v angličtině. Krátký dokument o projektu (tento) je k dispozici v češtině - pro krátké seznámení by měl stačit.
 
